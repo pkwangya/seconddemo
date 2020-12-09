@@ -1,0 +1,152 @@
+
+      .imgg{
+        width:100px;
+        height:100px;
+    }
+    .left-round p{
+        width:100px;
+        height:100px;
+        padding: 1px;
+        font-size: small;
+        background-color: rgb(240, 208, 208);
+    }
+    .prg{
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+    .icon{
+        width: 50px;
+        height: 50px;
+
+    }
+    .nav-item:hover{
+        background-color: gainsboro;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 4px 2px cyan;
+        border-radius: 30px;
+        }
+    .parrot{
+        width: 250px;
+        height: 250px;
+    }
+    .arrow{
+        font-size: 50px;
+    }
+    .jee{
+        font-weight: 800;
+        font-size: 50px;
+    }
+    .nine-heading{
+        color: rgb(24, 24, 105);
+        font-size: 70px;
+        font-weight: bolder;
+    }
+    .frame{
+        border: 5px solid white;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 5px black;
+    }
+    .shadow{
+        border:1px solid white;
+        box-sizing: border-box;
+        box-shadow: 1px 2px 4px black;
+        border-radius: 3%;
+    }
+    .carousel-item h5{
+        color: blue;
+        font-size: 40px;
+    }
+    .carousel-item h6{
+        font-size: 35px;
+    }
+     .footer{
+         background-image: linear-gradient(to left bottom, yellow 20%, green);
+         border-radius: 10px;
+         box-sizing: border-box;
+         box-shadow: 2px -4px 3px rgb(169, 204, 12);
+     }
+     .footer li{
+         list-style: none;
+         line-height: 30px;
+     }
+     .footer li a{
+         font-size: large;
+         text-shadow:0px 0px 1px black;
+         display: block;
+         padding: 3px 0;
+     }
+     .footer li a:hover{
+         background-color: rgba(129, 124, 92, 0.473);
+     }
+     .footer h4::after{
+        content: "";
+        width: 80px;
+        height: 3px;
+        display: block;
+        background-color: black;
+        margin: auto;
+        margin-top: 8px;
+     }
+     .subact-img img{
+         width: 200px;
+         height: 200px;
+     }
+    @media (max-width : 768px){
+        .arrow{
+            display: none;
+        }
+        .this img {
+            display: block;
+            position: relative;
+            top: 0;
+            margin: auto;
+            padding: 5px;
+        }
+        .line:after{
+            content: "";
+            width: 100%;
+            height: 3px;
+            display: block;
+            background-image: linear-gradient(rgb(0, 60, 255), rgb(0, 195, 255));
+            margin-top: 2px;
+            margin-bottom: 18px;
+        }
+        .nav-item{
+            text-align: center;
+        }
+        .nav-item:hover{
+            background-color: gainsboro;
+        }
+        .jee{
+            font-weight: 800;
+            font-size: 40px;
+        }
+        
+    .nine-heading{
+        color: rgb(24, 24, 105);
+        font-size: 45px;
+        font-weight: bolder;
+    }
+        
+        .footer h4::after{
+            content: "";
+            width: 100%;
+            height: 3px;
+            display: block;
+            background-color: rgb(51, 109, 4);
+            margin: auto;
+            margin-top: 8px;
+         }
+         .footer h4::before{
+            content: "";
+            width: 100%;
+            height: 3px;
+            display: block;
+            background-color: rgb(51, 109, 4);
+            margin: auto;
+            margin-top: 8px;
+         }
+         .footer li:hover{
+             background-color: rgb(190, 235, 29);
+         }
+    }
